@@ -49,6 +49,14 @@ h6 {
   color: #bde1dd;
 }
 
+/* .modal {
+  border-radius: 0;
+} */
+
+.bg-green {
+  background-color: #bde1dd;
+}
+
 header,
 section#about {
   height: 100vh;
@@ -89,10 +97,6 @@ video {
 
 .card > img {
   height: 370px;
-}
-
-main > section#projects {
-  background-color: #bde1dd;
 }
 
 i.fab {
