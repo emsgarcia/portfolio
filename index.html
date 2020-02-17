@@ -21,43 +21,6 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-      <a class="navbar-brand" href="#"></a>
-      <button
-        class="navbar-toggler border-0"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
-      <!-- <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-        </ul> -->
-
-      <button
-        type="button"
-        class="btn btn-dark btn-lg ml-auto"
-        data-toggle="modal"
-        data-target="#exampleModalCenter"
-      >
-        Resume
-      </button>
-      <!-- </div> -->
-    </nav>
     <main>
       <header>
         <div class="container-fluid pl-0">
@@ -83,17 +46,16 @@
             <img
               src="./assets/images/profile-2.png"
               alt=""
-              class="rounded-circle profile-photo my-5"
+              class="rounded-circle profile-photo mt-5"
             />
-            <div class="profile-description">
+            <div class="profile-description text-center">
               <h2 class="text-green mb-4">&lt;Hello!/&gt;</h2>
-              <p class="text-green">
+              <p class="text-green mb-5">
                 I'm <strong>Emma Garcia</strong>, a senior high school student
-                who loves to code. Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Dolor earum impedit distinctio ex similique
-                nihil quis, modi assumenda ut sapiente est dicta perferendis
-                numquam natus quo nobis! Nam, minima neque.
+                who loves to code in PHP & JS. 
               </p>
+
+              <a class="btn btn-lg btn-secondary" href="#projects">View My Projects</a>
             </div>
           </div>
         </div>
@@ -238,40 +200,7 @@
         </div>
       </footer>
     </main>
-    <!-- modal -->
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModalCenter"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content rounded-0 bg-dark border-0 p-4">
-          <div class="modal-body">
-            <h3
-              class="modal-title mb-5 text-green"
-              id="exampleModalCenterTitle"
-            >
-              View My Resume?
-            </h3>
-            <p class="modal-text text-green mb-5">
-              You will be redirected to a different page...
-            </p>
-            <div class="d-flex">
-              <button
-                type="button"
-                class="btn btn-secondary btn-lg ml-auto font-weight-light"
-              >
-                Go ahead
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
     <!-- scripts -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
